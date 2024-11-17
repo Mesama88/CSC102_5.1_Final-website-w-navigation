@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <!--
+ Chris Nielson
+ UAT CSC 102 Online
+ 4.2 Incorporate Audio
+ 11/10/2024
+ Dr. Jill Coddington
+ -->
+
+ <!-- 
+ 11/10/2024 assignment 4.2 new design elements: 1) Centered multiple elements, added background (no repeat, stretched), changed h1/h2/h3 font colors, removed background colors that clashed with background image, added breaks for spacing.
+ 11/09/2024 assignment 3.1 new design elements: 1) h1 changed font to blue and added background color red. 2) added form color & background color.
+ 11/09/2024 assignment 3.2 new design elements: 1) Added a picture and set the size. 2) Added a footer and set the font color, positioning, and background color. 
+ -->
+
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incorporate Audio</title> <!-- Sets the name of the tab in the browser.-->
+    <script src = "CSC102_11-10-2024_Incorporate Audio_JS.js"></script> <!-- Associates the javascript page with the HTML page so they can talk.-->
+    <link rel="stylesheet" href="CSC102_11-10-2024_Incorporate Audio_CSS.css"> <!-- Associates the CSS page with the HTML page so they can talk.-->  
+ </head>
+ <body>
+  
+ <nav>
+    <center>
+        <button onclick = "goTo_index()"> Go to the Index page.</button> 
+        <button onclick = "goTo_boards()"> Go to the Boards page. </button>
+        <button onclick = "goTo_palindromeChecker()"> Go to the Palindrome Checker page. </button><br>
+        <button onclick = "goTo_userInputValidation()"> Go to the User Input Validation page. </button>
+        <!-- <button onclick = "goTo_incorporateAudio()"> Go to the Incorporate Audio page. </button>   --><!--This page-->      
+        <button onclick = "goTo_eventDrivenProgramming()"> Go to the Event Driven Programming page. </button>
+        <button onclick = "goTo_table()"> Go to the Table page. </button> 
+    </center>
+</nav>
+
+    <center>
+    <h3> Press play to hear a ringtone. Press stop to reload the page.</h3>
+    <button onclick = "play();"> Play </button>
+    <button onclick = "reloadPage();"> Stop </button>
+    </center>
+
+    <!-- Paragraph denotes a new line. Also allows us to customize the paragraph in the CSS.--> 
+    <p id = "truthSerum"></p> <!--Calls for the value of nameStatus to be printed to screen.-->
+    <p id = "truthSerum2"></p> <!--Calls for the value of nameStatus to be printed to screen.-->
+
+    <br> <!--Adds a line break.-->
+    <center>
+        <h2>Heres an audio controller for some haunted house sounds.</h2>
+        <audio controls>	
+            Controls	<source src = "Audio/creepy-background-daniel_simon.mp3" audio></source>			<!-- Embeds an audio controller for the tagged mp3. Save to the same directory then use intelli-sense to attach the sound file -->				
+        </audio>
+    </center>
+    <br> <!--Adds a line break.-->
+    <br> <!--Adds a line break.-->
+    <br> <!--Adds a line break.-->
+    <br> <!--Adds a line break.-->    
+<footer>
+    This page is only for those playing mental word games! <!--A disclaimer, because we live in a litigative society.-->
+</footer>
+
+    </body>
+ </html>

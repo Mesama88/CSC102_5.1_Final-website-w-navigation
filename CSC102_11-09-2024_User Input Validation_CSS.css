@@ -1,0 +1,62 @@
+#companyLogo /*Formet this specific image.*/
+{
+    width: 200px;  /*Set the width of the image to 200 pixels.*/
+    height: 100px; /*Set the height of the image to 100 pixels.*/
+}
+
+h1 /*make changes Header 1 items.*/
+{
+    text-align: center; /*center the text.*/ 
+    color: rgb(255, 0, 255);
+}
+
+body /*Format body items*/
+{
+    background-color: lightgray; /*Set the background color*/
+    color: black;   /*Set the text color.*/
+}
+
+footer /*Format footer items.*/
+{
+    text-align: center; /*Center the text*/
+    margin-right: 200px; /*Creates a margin 200 pixels wide on the right side*/
+    background-color: aqua;
+    color: purple;
+}
+
+
+
+/*
+#forLoop
+{
+    background-color: green;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#forLoop:hover
+{
+    background-color: pink;
+    color: black;
+    padding: 16px 32px;
+    transition-duration: .5s;
+}
+
+declaration block:
+
+selector
+{
+    property: value;
+    property: value2;
+}
+
+nav
+{
+    height: 6000px;         
+    width: 200px;         
+    float: left;            
+    padding: 5px;          
+    line-height: 30px;    
+}
+
+*/

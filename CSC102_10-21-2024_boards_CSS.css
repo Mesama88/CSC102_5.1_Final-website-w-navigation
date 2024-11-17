@@ -1,0 +1,28 @@
+nav
+{
+	background-color: orangered;
+	width: 650px;
+   	height: 65px;  /*Set the height*/
+    	padding: 5px;   /*Add a 5 pixel space.*/
+    	line-height: 30px; /*Set the line height to 30 pixels.*/
+}
+
+button
+{
+    color: black;	
+	background-color: chartreuse;
+	border: 2px solid lightslategray;
+	border-color: black;
+	border-radius: 25px;
+	border-style groove;
+	curser: grab;
+	font-family: Georgia, serif;
+	font-style: italic;
+	text-align: center;
+	box-shadow: grey 1px 2px 1px 2px;	
+}
+
+body
+{
+    background-color: rgb(255, 191, 73);
+}

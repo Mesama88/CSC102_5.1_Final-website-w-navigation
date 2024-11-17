@@ -1,0 +1,71 @@
+ <!--
+ Chris Nielson
+ UAT CSC 102 Online
+ 4.2 Incorporate Audio
+ 11/10/2024
+ Dr. Jill Coddington
+ -->
+
+ <!-- 
+ 11/11/2024 assignment 4.1 new design elements: 1) Added button border radius, background color, and size.
+ 11/10/2024 assignment 4.2 new design elements: 1) Centered multiple elements, added background (no repeat, stretched), changed h1/h2/h3 font colors, removed background colors that clashed with background image, added breaks for spacing.
+ 11/09/2024 assignment 3.1 new design elements: 1) h1 changed font to blue and added background color red. 2) added form color & background color.
+ 11/09/2024 assignment 3.2 new design elements: 1) Added a picture and set the size. 2) Added a footer and set the font color, positioning, and background color. 
+ -->
+ 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incorporate Audio</title> <!-- Sets the name of the tab in the browser.-->
+    <script src = "CSC102_11-11-2024_Event Driven Programming_JS.js"></script> <!-- Associates the javascript page with the HTML page so they can talk.-->
+    <link rel="stylesheet" href="CSC102_11-11-2024_Event Driven Programming_CSS.css"> <!-- Associates the CSS page with the HTML page so they can talk.-->  
+ </head>
+ <body>
+    
+ <nav>
+    <center>
+        <button onclick = "goTo_index()"> Go to the Index page.</button> 
+        <button onclick = "goTo_boards()"> Go to the Boards page. </button>
+        <button onclick = "goTo_palindromeChecker()"> Go to the Palindrome Checker page. </button>
+        <button onclick = "goTo_userInputValidation()"> Go to the User Input Validation page. </button><br>
+        <button onclick = "goTo_incorporateAudio()"> Go to the Incorporate Audio page. </button>         
+         <!-- <button onclick = "goTo_eventDrivenProgramming()"> Go to the Event Driven Programming page. </button>--><!--This page-->
+        <button onclick = "goTo_table()"> Go to the Table page. </button> 
+    </center>
+</nav>
+
+
+ <!-- <img id="companyLogo" src="images/businessLogo.bmp"> -->
+ <br> <!--Adds a line break.-->
+ <br> <!--Adds a line break.-->
+ <br> <!--Adds a line break.-->   
+ <br> <!--Adds a line break.-->    
+ <br> <!--Adds a line break.-->
+ <br> <!--Adds a line break.-->
+ <br> <!--Adds a line break.-->
+ <br> <!--Adds a line break.-->
+ <br> <!--Adds a line break.-->
+ <br> <!--Adds a line break.-->
+ <br> <!--Adds a line break.-->
+ <br> <!--Adds a line break.-->
+    <button class="pageButtons" id="timer" onclick = "timer()"> 30 Second Timer </button>                                  <!-- Button that calls a function. -->
+    <h4 id = "timerMsg"> Timer Info </h4>                                                   <!-- Prints value to screen from input.js-->
+    <button class="pageButtons" id = "startClock" onclick = "clock()"> Start the clock </button>                <!-- Prints value to screen from input.js-->
+    <h4 id = "intervalMsg"> Interval Info </h4>                                             <!-- Prints value to screen from input.js-->
+    <button class="pageButtons" id = "dancingGhost" onclick = "dancingGhost()"> Dancing ghost. </button>        <!-- Button that calls a function. -->
+    <br> <!--Adds a line break.-->
+    <button class="pageButtons" id = "stopDancing" onclick = "stopDancing()"> Banish the ghost! </button>       <!-- Button that calls a function. -->
+    
+    <img src = "Images/ghost.jpg" id = "ghost" style = "position: absolute; left:200px; top:100px; width:100px; height:100px;"/> <!--Adds an image, positions it, and defines the size.-->
+    <h4 id = "XandY"> x and y coordinates</h4>  <!-- Prints value to screen from input.js-->
+
+    <br> <!--Adds a line break.-->
+    <br> <!--Adds a line break.-->    
+<footer>
+    This page is only for those playing mental word games! <!--A disclaimer, because we live in a litigative society.-->
+</footer>
+
+    </body>
+ </html>
